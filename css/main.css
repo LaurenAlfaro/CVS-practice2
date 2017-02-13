@@ -1,0 +1,238 @@
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+body {
+    background: #e5e5e5;
+    color: #333;
+    padding-top: 50px;
+}
+
+ul, ol {
+    padding: 0;
+}
+
+#main-slider {
+    color: #fff;
+    height: 300px;
+    text-align: center;
+}
+
+#main-slider .carousel-inner {
+    height: 100%;
+}
+
+#main-slider .carousel-inner .item {
+    width: 100%;
+    height: 100%;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#main-slider .carousel-inner .item1 {
+    background-image: url("../images/carousel/image.png");
+}
+
+#main-slider .carousel-inner .item2 {
+    background-image: url("../images/carousel/image.pn");
+}
+
+#main-slider .carousel-inner .item3 {
+    background-image: url("../images/carousel/image.pn");
+}
+
+#main-slider .carousel-indicators {
+    bottom: 80px;
+}
+
+.box {
+    position: relative;
+    overflow: hidden;
+    padding: 15px 0;
+    background: #fff;
+    border-bottom: 1px solid #e9e9e9;
+}
+
+.box.first {
+    margin-top: -40px;
+    border-radius: 5px 5px 0 0;
+}
+
+.box.last {
+    border-radius: 0 0 5px 5px;
+}
+
+.box h2 {
+    padding: 10px 30px;
+    display: inline-block;
+    border-radius: 4px;
+    position: relative;
+    margin-bottom: 30px;
+    font-size: 48px;
+}
+
+.icon-md {
+    display: inline-block;
+    margin-bottom: 10px;
+    width: 68px;
+    height: 68px;
+    border-radius: 100%;
+    text-align: center;
+    background-color: #009AE1;
+}
+
+.icon-md {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    margin: 19px;
+    background: url("../images/icon.png") no-repeat 0 0 transparent;
+}
+
+#services .box .item {
+  margin-bottom: 50px;
+}
+
+#portfolio .box {
+    background: #f3f3f3;
+}
+
+#portfolio .portfolio-filter li {
+    margin-bottom: 15px;
+}
+
+#portfolio .portfolio-item .item-inner {
+    margin: 0 0 20px;
+    text-align: center;
+    background: #fff;
+    padding: 10px;
+    border-bottom: 1px solid #e1e1e1;
+}
+
+#pricing .plan {
+    background: #f9f9f9;
+    margin: 15px 15px 30px;
+    border-bottom: 1px solid #e1e1e1;
+    box-shadow: 1px 1px 2px #777;
+}
+
+#pricing .plan li {
+    padding: 10px 0;
+    border-bottom: 1px dashed #eee;
+}
+
+#pricing .plan li.plan-name {
+  padding: 15px 0;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+#pricing .plan li.plan-price {
+  color: #666;
+  padding: 15px 0;
+  font-size: 48px;
+}
+
+#pricing .plan li.plan-action {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border-bottom: 0;
+}
+
+#pricing .plan.featured .plan-price {
+  color: #fff;
+  background-color: #52b6ec;
+  border-bottom-color: #52b6ec;
+  margin: 0;
+}
+
+#contact .box {
+    background: #f3f3f3;
+}
+
+#contact ul.social {
+  margin: 10px 0 0;
+  padding: 0;
+}
+
+#contact .contact-item {
+    margin: 0 15px;
+}
+
+#contact ul.social > li {
+    padding: 0;
+}
+
+.icon-social {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+    border-radius: 100%;
+    background: url("../images/sprite.png") no-repeat 0 0 transparent;
+}
+
+.icon-social.icon-facebook {
+    background-position: 0 0;
+}
+
+.icon-social.icon-google-plus {
+    background-position: 0 -60px;
+}
+
+.icon-social.icon-pinterest {
+    background-position: 0 -120px;
+}
+
+.icon-social.icon-linkedin {
+    background-position: 0 -180px;
+}
+
+.icon-social.icon-twitter {
+    background-position: 0 -240px;
+}
+
+.icon-social.icon-youtube {
+    background-position: 0 -300px;
+}
+
+footer {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    color: #999;
+}
+
+footer a {
+    color: #999;
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+    #main-slider {
+        height: 550px;
+    }
+
+    .box {
+        padding: 50px 15px;
+    }
+
+    #portfolio .portfolio-filter li {
+        margin-bottom: 50px;
+    }
+
+    #pricing .pricing-items {
+        margin: 0;
+    }
+
+    #pricing .plan {
+        margin: 80px 0 20px;
+    }
+
+    #contact .box {
+        padding: 30px;
+    }
+
+    #contact .contact-item {
+        margin: 0;
+    }
+}
